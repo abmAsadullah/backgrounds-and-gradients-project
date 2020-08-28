@@ -5,13 +5,16 @@
   margin: 0;
   font-family: "Lato", sans-serif;
 }
+
 body {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
@@ -33,11 +36,13 @@ nav {
   margin: 0 auto;
   margin-top: 90px;
 }
+
 nav ul {
   display: flex;
   height: 100%;
   justify-content: space-around;
 }
+
 nav ul li {
   padding: 0 39px;
   height: 100%;
@@ -45,10 +50,10 @@ nav ul li {
   padding-top: 5px;
   border-width: 0 2px 0 1px;
   border-style: solid;
-  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=) 0 2 0
-    1 stretch stretch;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=) 0 2 0 1 stretch stretch;
   cursor: pointer;
 }
+
 #apple i {
   font-size: 20px;
 }
@@ -69,13 +74,16 @@ nav ul li a {
   font-size: 13px;
   color: white;
 }
+
 nav ul li:hover {
   background-color: #505050;
   opacity: 0.7;
 }
+
 nav > ul > li:last-child {
   border-right-style: none;
 }
+
 main {
   max-width: 65%;
   margin: 0 auto;
@@ -89,6 +97,7 @@ main h1 {
   font-weight: 100;
   text-align: center;
 }
+
 main h2 {
   margin-top: 10px;
   color: white;
@@ -108,14 +117,17 @@ main h3 {
 main h3 a {
   color: white;
 }
+
 main h3 a:hover {
   text-decoration: underline;
 }
 
 .middle-container {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 75.51%;
   margin: 0 auto;
 }
+
 #images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -130,26 +142,33 @@ main h3 a:hover {
 
 footer {
   padding: 20px 0;
-  width: 80%;
+  /* width: 80%; */
+  width: 68.2451%;
   margin: 0 auto;
 }
+
 footer a {
   font-size: 10px;
   color: #08c;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
+
 footer p {
   font-size: 10px;
   color: #6e6e6e;
 }
+
 #left-footer {
   float: left;
 }
+
 #left-footer li {
   padding: 5px 0;
 }
+
 #right-footer {
   float: right;
 }
@@ -162,6 +181,7 @@ footer p {
   padding: 0 10px;
   border-right: 1px solid rgb(204, 204, 204);
 }
+
 #right-footer > ul > li:last-child {
   border-right-style: none;
 }
