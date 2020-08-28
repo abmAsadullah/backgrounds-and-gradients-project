@@ -1,8 +1,19 @@
 body {
 }
 
+#bg-container {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: url(/images/background.jpg) 50% 100% no-repeat;
+  background-size: 1440px 1315px;
+  min-height: 100vh;
+}
+
 nav {
-  height: 40px;
+  width: 980px;
+  height: 36px;
   background-image: linear-gradient(
     0deg,
     #6c6c6c,
@@ -12,6 +23,11 @@ nav {
   );
   border-radius: 4px;
   margin: 0 auto;
+  position: relative;
+  top: 90px;
+}
+
+main {
 }
 
 #images {
