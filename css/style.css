@@ -43,7 +43,7 @@ nav ul {
   justify-content: space-around;
 }
 
-main h3 a {
+.main h3 a {
   color: white;
 }
 
@@ -197,4 +197,9 @@ footer p {
 
 .main h3 a:hover {
   text-decoration: underline;
+}
+
+footer a {
+  font-size: 10px;
+  color: #08c;
 }
