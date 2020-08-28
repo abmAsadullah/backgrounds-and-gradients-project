@@ -31,7 +31,7 @@ ul {
 nav {
   width: 980px;
   height: 36px;
-  background-image: linear-gradient(0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
+  background-image: linear-gradient, (0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 90px;
@@ -43,6 +43,10 @@ nav ul {
   justify-content: space-around;
 }
 
+main h3 a {
+  color: white;
+}
+
 nav ul li {
   padding: 0 37px;
   height: 100%;
@@ -51,7 +55,15 @@ nav ul li {
   border-width: 0 2px 0 1px;
   border-style: solid;
   border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=) 0 2 0 1 stretch stretch;
+
   cursor: pointer;
+}
+
+.search-bar i {
+  position: relative;
+  left: 20px;
+  color: white;
+  top: 7px;
 }
 
 #apple i {
@@ -77,18 +89,6 @@ input {
 .search-bar {
   padding: 0;
   margin: 0;
-}
-
-.search-bar i {
-  position: relative;
-  left: 20px;
-  color: white;
-  top: 7px;
-}
-
-nav ul li a {
-  font-size: 13px;
-  color: white;
 }
 
 nav ul li:hover {
@@ -130,14 +130,6 @@ main h3 {
   margin-top: 20px;
 }
 
-main h3 a {
-  color: white;
-}
-
-main h3 a:hover {
-  text-decoration: underline;
-}
-
 .middle-container {
   width: 1440px;
   margin: 0 auto;
@@ -158,7 +150,13 @@ main h3 a:hover {
 footer {
   padding: 20px 0;
   width: 68.2451%;
+  /* width: 88%; */
   margin: 0 auto;
+}
+
+nav ul li a {
+  font-size: 13px;
+  color: white;
 }
 
 footer a {
@@ -202,4 +200,8 @@ footer p {
 
 #right-footer img {
   vertical-align: middle;
+}
+
+main h3 a:hover {
+  text-decoration: underline;
 }
