@@ -31,7 +31,13 @@ ul {
 nav {
   width: 980px;
   height: 36px;
-  background-image: linear-gradient(0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
+  background-image: linear-gradient(
+    0deg,
+    #6c6c6c,
+    #505050 50%,
+    #646764 50%,
+    #848484 100%
+  );
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 90px;
@@ -50,7 +56,8 @@ nav ul li {
   padding-top: 5px;
   border-width: 0 2px 0 1px;
   border-style: solid;
-  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=) 0 2 0 1 stretch stretch;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=)
+    0 2 0 1 stretch stretch;
   cursor: pointer;
 }
 
@@ -139,7 +146,7 @@ main h3 a:hover {
 }
 
 .middle-container {
-  width: 75.51%;
+  width: 1440px;
   margin: 0 auto;
 }
 
