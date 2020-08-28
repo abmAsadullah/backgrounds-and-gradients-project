@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
 body {
 }
 
@@ -8,28 +18,51 @@ body {
   overflow-x: hidden;
   background: url(/images/background.jpg) 50% 100% no-repeat;
   background-size: 1440px 1315px;
-  min-height: 100vh;
 }
 
 nav {
   width: 980px;
   height: 36px;
-  background-image: linear-gradient(
-    0deg,
-    #6c6c6c,
-    #505050 50%,
-    #646764 50%,
-    #848484 100%
-  );
+  background-image: linear-gradient(#868686, #6e6e6e, #868686);
   border-radius: 4px;
   margin: 0 auto;
-  position: relative;
-  top: 90px;
+  margin-top: 90px;
 }
 
 main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
+main h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: 100;
+  text-align: center;
+}
+main h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+}
+
+main h3 {
+  color: white;
+  font-weight: 100;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+main h3 a {
+  color: white;
+}
+main h3 a:hover {
+  text-decoration: underline;
+}
 #images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
