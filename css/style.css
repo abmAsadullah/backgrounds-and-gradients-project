@@ -38,7 +38,6 @@ nav {
     #646764 50%,
     #848484 100%
   );
-
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 90px;
@@ -48,6 +47,10 @@ nav ul {
   display: flex;
   height: 100%;
   justify-content: space-around;
+}
+
+main h3 a {
+  color: white;
 }
 
 nav ul li {
@@ -161,6 +164,11 @@ footer a {
   color: #08c;
 }
 
+nav ul li a {
+  font-size: 13px;
+  color: white;
+}
+
 footer a:hover {
   text-decoration: underline;
 }
@@ -197,15 +205,6 @@ footer p {
 
 #right-footer img {
   vertical-align: middle;
-}
-
-nav ul li a {
-  font-size: 13px;
-  color: white;
-}
-
-main h3 a {
-  color: white;
 }
 
 main h3 a:hover {
