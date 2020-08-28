@@ -28,7 +28,13 @@ ul {
 nav {
   width: 980px;
   height: 36px;
-  background-image: linear-gradient(0deg, #6c6c6c, #505050 50%, #646764 50%, #848484 100%);
+  background-image: linear-gradient(
+    0deg,
+    #6c6c6c,
+    #505050 50%,
+    #646764 50%,
+    #848484 100%
+  );
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 90px;
@@ -39,32 +45,44 @@ nav ul {
   justify-content: space-around;
 }
 nav ul li {
-  padding: 0 39px;
+  padding: 0 37px;
   height: 100%;
   box-sizing: border-box;
   padding-top: 5px;
   border-width: 0 2px 0 1px;
   border-style: solid;
-  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=) 0 2 0
-    1 stretch stretch;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=)
+    0 2 0 1 stretch stretch;
   cursor: pointer;
 }
 #apple i {
   font-size: 20px;
 }
-/* input {
-background: transparent;
--webkit-border-radius: 20px;
--moz-border-radius: 20px;
-border-radius: 20px;
-border: 1px solid #555;
-color: #fff;
-width: 80px;
-height: 18px;
-padding-left: 25px;
-margin: 9px 0 0 0;
+input {
+  background: transparent;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #555;
+  color: #fff;
+  width: 80px;
+  height: 18px;
+  padding-left: 25px;
+  margin: 9px 0 0 0;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
 }
-*/
+.search-bar {
+  padding: 0;
+  margin: 0;
+}
+.search-bar i {
+  position: relative;
+  left: 20px;
+  color: white;
+  top: 7px;
+}
 nav ul li a {
   font-size: 13px;
   color: white;
@@ -110,11 +128,6 @@ main h3 a {
 }
 main h3 a:hover {
   text-decoration: underline;
-}
-
-.middle-container {
-  width: 1440px;
-  margin: 0 auto;
 }
 #images {
   display: grid;
