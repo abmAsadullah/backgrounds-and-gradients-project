@@ -62,6 +62,7 @@ nav ul li {
   border-style: solid;
   border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=)
     0 2 0 1 stretch stretch;
+
   cursor: pointer;
 }
 
@@ -157,11 +158,6 @@ footer {
   padding: 20px 0;
   width: 68.2451%;
   margin: 0 auto;
-}
-
-footer a {
-  font-size: 10px;
-  color: #08c;
 }
 
 nav ul li a {
