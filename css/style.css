@@ -99,21 +99,21 @@ nav > ul > li:last-child {
   border-right-style: none;
 }
 
-main {
+.main {
   max-width: 65%;
   margin: 0 auto;
   padding-top: 25px;
   padding-bottom: 165px;
 }
 
-main h1 {
+.main h1 {
   color: white;
   font-size: 65px;
   font-weight: 100;
   text-align: center;
 }
 
-main h2 {
+.main h2 {
   margin-top: 10px;
   color: white;
   font-size: 35px;
@@ -121,7 +121,7 @@ main h2 {
   text-align: center;
 }
 
-main h3 {
+.main h3 {
   color: white;
   font-weight: 100;
   font-size: 26px;
@@ -195,6 +195,6 @@ footer p {
   vertical-align: middle;
 }
 
-main h3 a:hover {
+.main h3 a:hover {
   text-decoration: underline;
 }
