@@ -38,6 +38,7 @@ nav {
     #646764 50%,
     #848484 100%
   );
+
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 90px;
@@ -59,6 +60,13 @@ nav ul li {
   border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F+KwQEADZUCf37PGokAAAAASUVORK5CYII=)
     0 2 0 1 stretch stretch;
   cursor: pointer;
+}
+
+.search-bar i {
+  position: relative;
+  left: 20px;
+  color: white;
+  top: 7px;
 }
 
 #apple i {
@@ -84,18 +92,6 @@ input {
 .search-bar {
   padding: 0;
   margin: 0;
-}
-
-.search-bar i {
-  position: relative;
-  left: 20px;
-  color: white;
-  top: 7px;
-}
-
-nav ul li a {
-  font-size: 13px;
-  color: white;
 }
 
 nav ul li:hover {
@@ -135,14 +131,6 @@ main h3 {
   font-size: 26px;
   text-align: center;
   margin-top: 20px;
-}
-
-main h3 a {
-  color: white;
-}
-
-main h3 a:hover {
-  text-decoration: underline;
 }
 
 .middle-container {
@@ -209,4 +197,17 @@ footer p {
 
 #right-footer img {
   vertical-align: middle;
+}
+
+nav ul li a {
+  font-size: 13px;
+  color: white;
+}
+
+main h3 a {
+  color: white;
+}
+
+main h3 a:hover {
+  text-decoration: underline;
 }
