@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0 39px;
+  padding: 0 37px;
   height: 100%;
   box-sizing: border-box;
   padding-top: 5px;
@@ -57,19 +57,35 @@ nav ul li {
 #apple i {
   font-size: 20px;
 }
-/* input {
-background: transparent;
--webkit-border-radius: 20px;
--moz-border-radius: 20px;
-border-radius: 20px;
-border: 1px solid #555;
-color: #fff;
-width: 80px;
-height: 18px;
-padding-left: 25px;
-margin: 9px 0 0 0;
+
+input {
+  background: transparent;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #555;
+  color: #fff;
+  width: 80px;
+  height: 18px;
+  padding-left: 25px;
+  margin: 9px 0 0 0;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
 }
-*/
+
+.search-bar {
+  padding: 0;
+  margin: 0;
+}
+
+.search-bar i {
+  position: relative;
+  left: 20px;
+  color: white;
+  top: 7px;
+}
+
 nav ul li a {
   font-size: 13px;
   color: white;
@@ -123,7 +139,6 @@ main h3 a:hover {
 }
 
 .middle-container {
-  /* width: 1440px; */
   width: 75.51%;
   margin: 0 auto;
 }
@@ -142,7 +157,6 @@ main h3 a:hover {
 
 footer {
   padding: 20px 0;
-  /* width: 80%; */
   width: 68.2451%;
   margin: 0 auto;
 }

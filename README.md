@@ -4,7 +4,7 @@
 
 Project #4 Cloning and old Apple Website
 
-![screenshot](./app_screenshot.png/)
+![screenshot](./images/app_screenshot.png/)
 
 This project was manily about using Background Imamges
 and how to appy Gradients as well.
@@ -16,7 +16,7 @@ and how to appy Gradients as well.
 
 ## Live Demo
 
-[Live Demo Link](https://cvilla714.github.io/floating/)
+[Live Demo Link](https://abmasadullah.github.io/backgrounds-and-gradients-project/)
 
 👤 **kc**
 
