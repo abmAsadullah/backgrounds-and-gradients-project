@@ -24,7 +24,7 @@ ul {
   margin: 0;
   max-width: 100%;
   overflow-x: hidden;
-  background: url(/images/background.jpg) 50% 100% no-repeat;
+  background: url(../images/background.jpg) 50% 100% no-repeat;
   background-size: 1440px 1315px;
 }
 
