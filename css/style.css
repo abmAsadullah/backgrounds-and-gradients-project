@@ -43,14 +43,14 @@ nav ul {
   justify-content: space-around;
 }
 
-nav ul li a {
-  font-size: 13px;
-  color: white;
-}
-
 footer a {
   font-size: 10px;
   color: #08c;
+}
+
+nav ul li a {
+  font-size: 13px;
+  color: white;
 }
 
 .main h3 a {
