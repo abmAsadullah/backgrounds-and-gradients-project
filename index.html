@@ -8,61 +8,78 @@
     <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- this is the section to insert the background image -->
-    <section class="middle">
-      <div id="main-img">
-        <header>
-          <nav>
-            <!-- <i class="fab fa-apple"></i>
-          <i class="fas fa-search"></i> -->
-          </nav>
-        </header>
-        <main class="content">
-          <a href="#"><p-top>What will you verse be?</p-top></a>
-          <a href="#"><p-middle>Everyone has something to share. See how people are using iPad in their unique ways to add to the world's story.</p-middle></a>
-          <a href="#"
-            ><p-bottom>Watch the "Your Verse" film and explore the stories<i class="fas fa-play-circle"></i></p-bottom
-          ></a>
-          <img src="/images/title1.png" alt="" />
-        </main>
-      </div>
+    <section id="bg-container">
+      <nav>
+        <ul>
+          <li>
+            <a id="apple" href="#"> <i class="fab fa-apple"></i> </a>
+          </li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Mac</a></li>
+          <li><a href="#">iPod</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">iTunes</a></li>
+          <li><a href="#">Support</a></li>
+          <li>
+            <i class="fas fa-search fa-xs white"></i>
+            <!-- <input type="text" /> -->
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <a href="#"><h1>What will you verse be?</h1></a>
+        <a href="#"><h2>Everyone has something to share. See how people are using iPad in their unique ways to add to the world's story.</h2></a>
+        <h3>
+          <a href="#"> Watch the "Your Verse" film and explore the stories</a>
+          <i class="far fa-play-circle" aria-hidden="true"></i>
+        </h3>
+      </main>
     </section>
-    <!-- this is the section for the grid  -->
-    <section id="images">
-      <img src="images/pic-1.jpg" alt="Image-1" />
-      <img src="images/pic-2.jpg" alt="Image-1" />
-      <img src="images/pic-3.jpg" alt="Image-1" />
-      <img src="images/pic-4.jpg" alt="Image-1" />
-    </section>
-    <footer>
-      <div class="footer-top">
-        <div class="left-footer-top">
-          <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.</p>
-        </div>
-        <div class="right-footer-top">
+    <div class="middle-container">
+      <section id="images">
+        <img src="images/pic-1.jpg" alt="Image-1" />
+        <img src="images/pic-2.jpg" alt="Image-1" />
+        <img src="images/pic-3.jpg" alt="Image-1" />
+        <img src="images/pic-4.jpg" alt="Image-1" />
+      </section>
+    </div>
+    <div class="middle-container">
+      <footer>
+        <div id="left-footer">
           <ul>
-            <a href="#"><li>Site Map</li></a>
-            <a href="#"><li>Hot News</li></a>
-            <a href="#"><li>RSS Feeds</li></a>
-            <a href="#"><li>Media Info</li></a>
-            <a href="#"><li>Environment</li></a>
-            <a href="#"><li>Job Opportunities</li></a>
-            <a href="#"><li>Contact Us</li></a>
-            <a href="#"
-              ><li><img src="images/usa.png" alt="usa" /></li
-            ></a>
+            <li>
+              <p>
+                Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a
+                <a href="#">reseller</a>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Copyright © 2014 Apple Inc. All rights reserved.
+                <a href="#">Terms of Use</a>
+                <a href="#">| Privacy Policy</a>
+              </p>
+            </li>
           </ul>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <p>
-          Copyright © 2014 Apple Inc. All rights reserved.
-          <a href="#">Terms of Use</a>
-        </p>
-        <a href="#"><p>Privacy Policy</p></a>
-      </div>
+        <div id="right-footer">
+          <ul>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Hot News</a></li>
+            <li><a href="#">RSS Feeds</a></li>
+            <li><a href="#">Media Info</a></li>
+            <li><a href="#">Environment</a></li>
+            <li><a href="#">Job Opportunities</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <a href="#"><img src="images/usa.png" alt="usa" /></a>
+            </li>
+          </ul>
+        </div>
 
-      <!-- https://web.archive.org/web/20140301004353im_/http://images.apple.com/global/elements/flags/16x16/usa.png -->
-    </footer>
+        <!-- https://web.archive.org/web/20140301004353im_/http://images.apple.com/global/elements/flags/16x16/usa.png -->
+      </footer>
+    </div>
   </body>
 </html>
