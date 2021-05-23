@@ -18,11 +18,11 @@ and how to appy Gradients as well.
 
 [Live Demo Link](https://abmasadullah.github.io/backgrounds-and-gradients-project/)
 
-👤 **kc**
+👤 **Cosmel Villalobos**
 
 - Github: [@cvilla714](https://github.com/cvilla714)
 - Twitter: [@kckeyti](https://twitter.com/kckeyti)
-- Linkedin: [cosmel-villalobos](https://www.linkedin.com/in/cosmel-villalobos-1900531aa/)
+- LinkedIn: [Cosmel Villalobos](https://www.linkedin.com/in/cosvilla/)
 
 👤 **abmasadullah**
 
